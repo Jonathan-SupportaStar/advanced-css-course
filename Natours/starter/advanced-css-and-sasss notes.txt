@@ -1,0 +1,37 @@
+The best way to perform a basic reset using the universal selector
+
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+
+How to set project wide font definitions
+
+	body {
+		font-family: "Lato", sans-serif;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 1.7;
+		color: #777;
+		padding: 30px;
+	}
+
+How to clip parts of elements using clip-path
+	
+	clip-path: polygon(0 0, 100% 0, 100% 65%, 0 100%);
+	clippy for predefined shapes
+		https://bennettfeely.com/clippy/
+
+
+
+Extra: 
+	box-sizing: border-box (padding and boarders are not added to the height/width of the element)
+	Dont do font in the universal selector. Use in body because of inheritence (see next lesson)
+
+
+CSS Animations
+	@keyframes and the animation property.
+
+Code Pen
+https://codepen.io/anon/pen/pZpxOe?editors=1100#0
